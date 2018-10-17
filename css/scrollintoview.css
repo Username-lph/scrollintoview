@@ -1,0 +1,39 @@
+#myDiv {
+	height: 900px;
+	background-color: gray;
+}
+
+#roll_top {
+	height: 900px;
+	background-color: green;
+	color: #FFF;
+	font-size: 50px;
+	position: relative;
+}
+
+#bottom {
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+}
+/*滚动监测*/
+.main div {
+	height: 1000px;
+	width: 300px;
+	margin: 20px;
+	background-color: #C0C0C0;
+}
+
+#nav {
+	position: fixed;
+	width: 100px;
+	height: 200px;
+	top: 40%;
+	right: 10px;
+}
+
+#nav div {
+	cursor: pointer;
+	text-align: center;
+}
